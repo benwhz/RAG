@@ -4,6 +4,10 @@ We built a simple RAG (Retrieval-augmented generation) pipeline from scratch, us
 - Embedding: [FlagEmbedding](https://huggingface.co/BAAI/bge-small-zh-v1.5)
 - LLM: [Qwen2.5](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)
 
+**Two ways**:
+- rag_simple.py: simple vector store in memory.
+- rag_chroma.py: vector store with [Chroma Vector DB](https://www.trychroma.com/)
+
 **RAG modules**:
 1. SimpeFileReader: just read a text file
 1. SentenceSplitter: split the docs with specified chunk size and overlap.
