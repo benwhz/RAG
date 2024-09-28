@@ -15,7 +15,7 @@ We built a simple RAG (Retrieval-augmented generation) pipeline from scratch, us
 1. split the content into chunks.
 1. build the vector store with the chunks.
 1. define the question.
-1. query the context of this quesion from vector store.
+1. query the context of this question from vector store.
 1. format the prompt with the question and it's context.
 1. predict the prompt with the LLM.
 1. get the answer.
